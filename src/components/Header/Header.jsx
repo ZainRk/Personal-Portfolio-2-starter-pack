@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import css from './Header.module.scss';
 import {motion} from 'framer-motion';
 import { getMenuStyles, headerVariants } from '../../utils/motion';
