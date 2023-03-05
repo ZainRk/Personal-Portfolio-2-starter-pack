@@ -1,77 +1,38 @@
 @import '../../styles/contants.scss';
 
-.wrapper {
-    .container {
-        .heading {
-            flex-direction: column;
-           p{
-            line-height: 30px;
-           }
+.wrapper{
+    overflow: hidden;
+    .container{
+        flex-direction: column;
+        gap: 2rem;
+        .heading{
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            >:nth-child(2)
+            {
+                text-decoration: underline;
+                color: orange;
+                cursor: pointer;
+            }
         }
 
-        .comments {
-            // fix for spacing between slides
-            .slider :global {
-                .slick-list {
-                    margin: 0 -7px;
-                    box-sizing: initial;
-                    padding: 80px 0px;
-                    overflow-y: visible;
-                    & .slick-slide>div {
-                        padding: 0 20px;
-                    }
-                    & .slick-slide.slick-active.slick-current + .slick-slide{
-                        @media (min-width: $lg) {
-                            transition: all 1000ms ease-out;
-                            scale: 1.1;
-                            transform: translateY(-30px)
-                        }
-                    }
-                }
-            }
+        .showCase{
+            width: 100%;
+            gap: 1.5rem;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            >img{
 
-            .comment {
-                box-shadow: rgb(0 0 0 / 5%) -3px 11px 13px 0px;
-                padding: 2rem;
-                display: flex!important;
-                flex-direction: column;
-                gap: 1rem;
-                background: white;
-                border-radius: 20px;
-                position: relative;
-                img{
-                    margin: auto;
-                    border-radius: 100%;
-                    width: 3.5rem;
-                    height: 3.5rem;
-                    position: absolute;
-                    top: -2rem;
-                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.08));
-                }
-                p{
-                    text-align: center;
-                    font-size: 0.9rem;
-                    line-height: 25px;
-                }
-                .line{
+                @media (max-width: $sm) {
                     width: 100%;
-                    border: .2px solid rgb(234, 234, 234);
                 }
-                .bio{
-                    >*{
-                        display: block;
-                        text-align: center;
-                    }
-                    >:nth-child(1){
-                        font-weight: 600;
-                        margin-bottom: 5px;
-                    }
-                    >:nth-child(2)
-                    {
-                        font-size: 0.7rem;
-                        color:  rgb(172, 172, 172);
-                    }
-                }
+                border-radius: 20px;
+                max-width: 25rem;
+                max-height: 18rem;
+                box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+                cursor: pointer;
             }
         }
     }

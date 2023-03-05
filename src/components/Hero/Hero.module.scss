@@ -3,7 +3,6 @@
 .wrapper {
     overflow: hidden;
 
-
     .container {
         position: relative;
         z-index: 1;
@@ -76,17 +75,6 @@
                 }
                 margin-bottom: -5px;
             }
-        }
-
-        .email {
-            @media (max-width: $sm ) {
-                position: relative;
-                display: none;
-            }
-            position: absolute;
-            top: 50%;
-            left: 0;
-            color: orange;
         }
     }
 }

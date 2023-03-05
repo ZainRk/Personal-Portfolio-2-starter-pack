@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
@@ -34,8 +34,8 @@ const Header = () => {
           style={getMenuStyles(menuOpened)}
         >
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experiments">Experiments</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#experiment">Experiment</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 

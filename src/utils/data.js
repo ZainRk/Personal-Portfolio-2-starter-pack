@@ -1,54 +1,30 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
+import { BsPeople } from "react-icons/bs";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const aboutExperience = [
   {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
+    name: "Frontend Skills",
+    skills: "HTML, CSS, Javascript, React, Bootstrap, Tailwind",
+    icon: MdWorkspacesOutline,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Backend & Other Tech Skills",
+    skills: "Ruby on Rails, Java, SQL, Docker, Git",
+    icon: HiOutlineDesktopComputer,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "Professional Skills",
+    skills: "Project management, Adaptability",
+    icon: BsPeople,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
-];
-
-export const workExp = [
-  {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
+  "A motivated Web Developer with formerly 5+ years’ project management experience.",
+  "Using proven skills in coding, data and complex problem-solving to meet business needs as a developer.",
 ];
 
 export const comments = [
