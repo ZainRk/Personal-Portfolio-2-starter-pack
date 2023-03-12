@@ -32,8 +32,8 @@ const Contact = () => {
             <span className="secondaryText">Find me on</span>
           </div>
           <ul className={css.menu}>
-            <li><BsLinkedin size={30} />Linkedin</li>
-            <li><BsGithub size={30} />Github</li>
+            <li><span className={css.icon}><BsLinkedin size={30} /></span><span className={css.text}>Linkedin</span></li>
+            <li><span className={css.icon}><BsGithub size={30} /></span><span className={css.text}>Github</span></li>
           </ul>
         </div>
       </motion.div>

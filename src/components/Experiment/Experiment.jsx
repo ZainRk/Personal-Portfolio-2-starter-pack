@@ -35,7 +35,7 @@ const Experiment = () => {
             {comments.map((comment, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
-                  <img src={comment.img} alt="" />
+                  <img src={comment.img} alt="image" />
                   <p>{comment.comment}</p>
                   <div className={css.line}></div>
                   <div className={css.bio}>

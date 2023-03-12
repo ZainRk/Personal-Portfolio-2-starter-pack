@@ -23,70 +23,35 @@ export const aboutExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "A motivated Web Developer with formerly 5+ years’ project management experience.",
+  "A motivated Developer with formerly 5+ years’ project management experience.",
   "Using proven skills in coding, data and complex problem-solving to meet business needs as a developer.",
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "MINESWEEPER",
+    post: "javascript",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Minesweeper game using Ruby on Rails and Javascript",
+    img: "https://images.unsplash.com/photo-1580234831315-438a4813685c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "SNOW",
+    post: "pure css",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+    img: "https://images.unsplash.com/photo-1542601098-8fc114e148e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "MY BANK",
+    post: "java",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+    img: "https://images.unsplash.com/photo-1515974256630-babc85765b1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "MONOPOLY GAME",
+    post: "javascript",
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     img: "./people2.png",
@@ -130,3 +95,30 @@ export const sliderSettings = {
     },
   ],
 };
+
+export const projectInfo =[
+   {
+    name: "Gearless",
+    src: "https://github.com/the-ham/Gearless",
+    tag1: "Ruby on Rails",
+    tag2: "Boostrap",
+    intro: "Online marketplace service aiding users to rent or lease camping and outdoor gears.",
+    bg: "https://images.unsplash.com/photo-1511715885542-a3713331633d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  },
+  {
+    name: "Takestock",
+    src: "http://www.takestock.dev",
+    tag1: "Ruby on Rails",
+    tag2: "Tailwind",
+    intro: "One-stop website of social media information for stock traders or investors.",
+    bg: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  },
+  {
+    name: "X-mall",
+    src: "https://github.com/CaaaseyD/X-mall",
+    tag1: "Java",
+    tag2: "Springboot",
+    intro: "E-commerce platform for B2C businesses.(under construction)",
+    bg: "https://images.unsplash.com/photo-1602532381225-eec578361933?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80",
+  },
+];

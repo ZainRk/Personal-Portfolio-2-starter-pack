@@ -48,6 +48,11 @@
                     &:hover{
                         color: $secondary
                     }
+                    .icon, .text{
+                        vertical-align: middle;
+                        display: inline-block;
+                        margin: 0.3rem;
+                        }
                 }
             }
         }

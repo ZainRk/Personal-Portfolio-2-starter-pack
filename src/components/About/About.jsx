@@ -36,21 +36,8 @@ const Experties = () => {
             <motion.div
             variants={textVariant(0.5)}
             className={css.rightSide}>
-
                 <span className='primaryText'>Who am I? </span>
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
-
-
-                {/* <div className={`flexCenter ${css.stats}`}>
-                    <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Completed</span>
-                    </div>
-                    <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
-                        <span className='secondaryText'>Happy Clients</span>
-                    </div>
-                </div> */}
             </motion.div>
         </motion.div>
     </section>
