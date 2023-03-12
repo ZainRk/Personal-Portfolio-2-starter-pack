@@ -55,7 +55,7 @@ export const comments = [
     name: "MONOPOLY GAME",
     post: "javascript",
     comment:
-      "Monopoly is a multi-player economics-themed board game. In the game, players roll two dice to move around the game board, buying and trading properties and developing them with houses and hotels. Players collect rent from their opponents, aiming to drive them into bankruptcy. Money can also be gained or lost through Chance and Community Chest cards and tax squares. Players receive a stipend every time they pass "Go" and can end up in jail, from which they cannot move until they have met one of three conditions.",
+      "Monopoly is a multi-player economics-themed board game. In the game, players roll two dice to move around the game board, buying and trading properties and developing them with houses and hotels. Players collect rent from their opponents, aiming to drive them into bankruptcy. Money can also be gained or lost through Chance and Community Chest cards and tax squares. Players receive a stipend every time they pass 'Go' and can end up in jail, from which they cannot move until they have met one of three conditions.",
     img: "/icons8-circled-4-100.png",
   },
 ];
