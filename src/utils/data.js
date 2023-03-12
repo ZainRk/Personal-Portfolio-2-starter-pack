@@ -31,30 +31,32 @@ export const comments = [
   {
     name: "MINESWEEPER",
     post: "javascript",
+    href: "https://github.com/CaaaseyD/Profile/blob/master/app/views/pages/minesweeper.html.erb",
     comment:
-      "Minesweeper game using Ruby on Rails and Javascript",
-    img: "https://images.unsplash.com/photo-1580234831315-438a4813685c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80",
+      "Minesweeper is a logic puzzle video game genre generally played on personal computers. The game features a grid of clickable squares, with hidden 'mines' scattered throughout the board.",
+    img: "/icons8-circled-1-100.png",
   },
   {
     name: "SNOW",
     post: "pure css",
+    href: "https://github.com/CaaaseyD/Profile/blob/master/app/views/pages/snow.html.erb",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "https://images.unsplash.com/photo-1542601098-8fc114e148e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)",
+      "A simple pure css page that allows you to see a realistic snow falling effect and thanks to codepen authors for their inspiration.",
+    img: "/icons8-circled-2-100.png",
   },
   {
     name: "MY BANK",
     post: "java",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "https://images.unsplash.com/photo-1515974256630-babc85765b1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "Banks offer personal banking, business solutions, institutional banking, company information, and more. Here is an simple example",
+    img: "/icons8-circled-3-100.png",
   },
   {
     name: "MONOPOLY GAME",
     post: "javascript",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Monopoly is a multi-player economics-themed board game. In the game, players roll two dice to move around the game board, buying and trading properties and developing them with houses and hotels. Players collect rent from their opponents, aiming to drive them into bankruptcy. Money can also be gained or lost through Chance and Community Chest cards and tax squares. Players receive a stipend every time they pass "Go" and can end up in jail, from which they cannot move until they have met one of three conditions.",
+    img: "/icons8-circled-4-100.png",
   },
 ];
 

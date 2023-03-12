@@ -38,10 +38,10 @@ const Experiment = () => {
                   <img src={comment.img} alt="image" />
                   <p>{comment.comment}</p>
                   <div className={css.line}></div>
-                  <div className={css.bio}>
+                  <a className={css.bio} target="_blank" href={comment.href}>
                     <span>{comment.name}</span>
                     <span>{comment.post}</span>
-                  </div>
+                  </a>
                 </div>
               );
             })}

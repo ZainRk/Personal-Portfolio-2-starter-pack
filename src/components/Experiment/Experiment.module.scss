@@ -58,9 +58,14 @@
                     border: .2px solid rgb(234, 234, 234);
                 }
                 .bio{
+                    text-decoration: none;
+                    &:hover{
+                        color: $secondary;
+                    }
                     >*{
                         display: block;
                         text-align: center;
+                        color: $primary;
                     }
                     >:nth-child(1){
                         font-weight: 600;
