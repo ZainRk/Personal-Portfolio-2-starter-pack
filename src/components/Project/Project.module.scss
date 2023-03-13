@@ -1,0 +1,93 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    overflow: hidden;
+    .container{
+        flex-direction: column;
+        gap: 2rem;
+        .heading{
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            >:nth-child(2)
+            {
+                text-decoration: underline;
+                color: orange;
+                cursor: pointer;
+            }
+        }
+
+        .showCase{
+            width: 100%;
+            gap: 1.5rem;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .project{
+                position: relative;
+                .img{
+                    @media (max-width: $sm) {
+                        width: 100%;
+                    }
+                    border-radius: 20px;
+                    width: 21rem;
+                    height: 15rem;
+                    box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+                    cursor: pointer;
+                    }
+                }
+
+                .first {
+                    position: absolute;
+                    text-decoration: none;
+                    color: $secondary-white;
+                    top: 10%;
+                    left: 7%;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                    text-shadow: 2px 2px 20px  rgba(255, 255, 255, 0.2);
+                    line-height: 1.8;
+                    word-spacing: 100vw;
+                }
+                .first:hover{
+                    color: white;
+                    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.2);;
+                }
+
+                .second {
+                    position: absolute;
+                    color: $secondary-white;
+                    color: white;
+                    top: 50%;
+                    left: 7%;
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                }
+                .second:hover{
+                    color: white;
+                    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.2);;
+                }
+
+                .tags {
+                    position: absolute;
+                    bottom: 1rem;
+                    left: 7%;
+                    padding: 0.2rem;
+                    display: block;
+                }
+                .tags span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 0.5rem;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 0.66rem;
+                    border: 3px solid white;
+                    border-radius: 2rem;
+                    padding: 0.2rem 0.85rem 0.25rem;
+                    margin-right: 0.5rem;
+                }
+        }
+    }
+}
