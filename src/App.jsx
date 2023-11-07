@@ -1,24 +1,18 @@
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import Experties from "./components/Experties/Experties";
-import Work from "./components/Work/Work";
 import css from "./styles/app.module.scss";
 import Footer from "./components/Footer/Footer";
-import Portfolio from "./components/Portfolio/Portfolio";
-import People from "./components/People/People";
+import Content from "./components/Content/Content";
 import Galery from "./components/Galery/Galery";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
-  //don't forget to add font link in index.html
   return (
     <div className={`bg-primary ${css.container}`}>
       <Header />
-      {/* <Galery /> */}
-      <Hero />
-      <Experties />
-      <Work />
-      <Portfolio />
-      <People />
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/galery" element={<Galery />} />
+      </Routes>
       <Footer />
     </div>
   );

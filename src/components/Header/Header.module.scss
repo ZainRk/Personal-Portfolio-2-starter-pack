@@ -22,11 +22,16 @@
     // 这个属性设置了 .container 内文本的字体粗细为500，这是中等字体粗细。
     font-weight: 500;
 
+    a {
+      text-decoration: none;
+      color: initial;
+    }
+
     .name {
       // 这个属性为 .name 类中的文本设置了字体大小为1.5rem。rem 是一种相对单位，相对于根元素（html）的字体大小。
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       // 这个属性与 .container 的 font-weight 相同，为 .name 类中的文本设置了字体粗细为500。
-      font-weight: 600;
+      font-weight: 500;
     }
 
     .menu {

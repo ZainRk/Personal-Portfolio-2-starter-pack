@@ -19,7 +19,7 @@ const People = () => {
       section
       className={`paddings ${css.wrapper}`}
     >
-      <a className="anchor" id="people"></a>
+      <a className="anchor" id="testimonials"></a>
 
       <motion.div
         variants={footerVariants}

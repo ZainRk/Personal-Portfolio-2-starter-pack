@@ -14,6 +14,7 @@ const Experties = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`yPaddings flexCenter innerWidth paddings paddings ${css.container}`}
       >
+        <a id="service" className="anchor"></a>
         <div className={css.leftSide}>
           {projectExperience.map((exp, i) => {
             return (

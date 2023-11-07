@@ -7,6 +7,7 @@ import {
   textVariant,
   textVariant2,
 } from "../../utils/motion";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -30,7 +31,9 @@ const Portfolio = () => {
               Perfect solution for digital experience
             </p>
           </div>
-          <span className="secondaryText">Explore More Works</span>
+          <Link to="/galery">
+            <span className="secondaryText">Explore More Works</span>
+          </Link>
         </motion.div>
 
         <div className={`flexCenter ${css.showCase}`}>

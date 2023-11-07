@@ -19,7 +19,7 @@ const Work = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}
     >
-      <a className="anchor" id="work"></a>
+      <a className="anchor" id="experience"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}

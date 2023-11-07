@@ -13,7 +13,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}
       >
-        <div className={css.upperElements}>
+        <div className={css.middleElements}>
           <motion.span
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText"
@@ -22,6 +22,7 @@ const Hero = () => {
             <br />
             I'm Yuan TANG
           </motion.span>
+
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}
@@ -42,32 +43,6 @@ const Hero = () => {
             alt=""
           />
         </motion.div>
-
-        {/* <a href="mailto:zhongjiquan828@gmail.com" className={css.email}>
-          zhongjiquan828@gmail.com
-        </a> */}
-
-        <div className={css.lowerElements}>
-          <motion.div
-            variants={fadeIn("right", "tween", 0.3, 1)}
-            className={css.experience}
-          >
-            <div className="primaryText">10</div>
-            <div className="secondaryText">
-              <div>Years</div>
-              <div>Experience</div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            variants={fadeIn("left", "tween", 0.5, 1)}
-            className={css.certificate}
-          >
-            <img src="./certificate.png" alt="" />
-            <span>CERTIFICATED PROFATIONAL</span>
-            <span>UI/UX DESIGNER</span>
-          </motion.div>
-        </div>
       </motion.div>
     </section>
   );
