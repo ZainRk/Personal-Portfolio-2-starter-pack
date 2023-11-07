@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio-2",
   "private": true,
-  "homepage": "https://jiquanzhong.github.io/"
+  "homepage": "https://jiquanzhong.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
