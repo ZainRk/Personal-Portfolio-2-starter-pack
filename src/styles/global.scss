@@ -1,7 +1,7 @@
-@import './contants.scss';
+@import "./contants.scss";
 
 .bg-primary {
-  background: #F8F7F1;
+  background: #f8f7f1;
 }
 
 .innerWidth {
@@ -18,9 +18,7 @@
     padding: 4rem;
   }
 
-
-  @media (min-width: $xl),
-  (min-width: $md) {
+  @media (min-width: $xl), (min-width: $md) {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -30,8 +28,6 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
-
 
 .xPaddings {
   @media (min-width: $sm) {
@@ -61,7 +57,7 @@
 }
 
 .topPaddings {
-  @media (min-width : $sm) {
+  @media (min-width: $sm) {
     padding-top: 4rem;
   }
 
@@ -72,9 +68,8 @@
   padding-top: 3rem;
 }
 
-
 .bottomPaddings {
-  @media (min-width : $sm) {
+  @media (min-width: $sm) {
     padding-bottom: 4rem;
   }
 
@@ -84,7 +79,6 @@
 
   padding-bottom: 3rem;
 }
-
 
 .flexCenter {
   display: flex;
@@ -118,7 +112,7 @@
   }
   line-height: 50px;
   font-size: 1.3rem;
-  font-weight: 500
+  font-weight: 500;
 }
 .anchor {
   display: block;

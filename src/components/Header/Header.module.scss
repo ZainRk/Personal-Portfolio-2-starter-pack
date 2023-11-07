@@ -1,0 +1,103 @@
+@import "./../../styles/contants.scss";
+
+.wrapper {
+  //个较高的 z-index 值意味着元素会在层叠上位于其他较低 z-index 值的元素之上
+  z-index: 99;
+  //这个属性设置了元素的不透明度。值 1 表示完全不透明。
+  opacity: 1;
+  //这个属性指定了元素不应用任何变换效果
+  transform: none;
+  //表示元素是粘性定位的，意味着它是基于用户的滚动位置定位的。
+  position: sticky;
+  //指定元素在视口顶部边缘的距离
+  top: 0px;
+  //使得所有可过渡的属性变化（如颜色、大小等）都将在300毫秒内平滑地完成，使用的是 ease 时间函数。
+  transition: all 300ms ease;
+
+  .container {
+    // 这个属性设置元素的定位方式为相对定位。相对定位的元素可以通过额外的属性（如 top、right、bottom、left）进行位置调整，而且这种调整不会影响到其他元素的布局。
+    position: relative;
+    // 这个属性通常与Flexbox布局一起使用（需要 display: flex; 或 display: inline-flex;）。它会使 .container 内的子元素沿主轴均匀分布，两端对齐，中间的子元素之间的间距相等。
+    justify-content: space-between;
+    // 这个属性设置了 .container 内文本的字体粗细为500，这是中等字体粗细。
+    font-weight: 500;
+
+    .name {
+      // 这个属性为 .name 类中的文本设置了字体大小为1.5rem。rem 是一种相对单位，相对于根元素（html）的字体大小。
+      font-size: 1.5rem;
+      // 这个属性与 .container 的 font-weight 相同，为 .name 类中的文本设置了字体粗细为500。
+      font-weight: 600;
+    }
+
+    .menu {
+      @media (max-width: $sm), (max-width: $md) {
+        position: absolute;
+        list-style: none;
+        gap: 2rem;
+        font-weight: 500;
+        flex-direction: column;
+        right: 0;
+        top: 3rem;
+        height: calc(100vh - 6.3rem);
+        width: 50%;
+        min-width: 15rem;
+        background: white;
+        padding: 2rem;
+        display: flex;
+        border-radius: 10px;
+        transition: all 200ms ease;
+        align-items: flex-start;
+        padding: 3rem;
+        justify-content: flex-start;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+      }
+      // 这个属性将文本转换为大写。应用这个属性后，文本中的所有小写字母都会被显示为大写字母。
+      text-transform: uppercase;
+      // 设定文本的字体大小为1rem
+      font-size: 1rem;
+      // 这个属性通常用于列表元素（如ul或li），用来移除列表项前的默认标记（如项目符号或数字）。设置为none意味着列表前不会有任何标记。
+      list-style: none;
+      // 这个属性定义了Flexbox或Grid布局中子元素之间的间隔
+      gap: 1.5rem;
+      // 这个属性改变鼠标悬停在元素上时的光标样式
+      cursor: pointer;
+
+      li {
+        a {
+          // 这个属性指定链接 (a 标签) 的文本颜色应该继承自其父元素。
+          color: inherit;
+          // 这个属性用于移除链接的下划线，这是链接默认的文本装饰。设置为 none 会使链接看起来更像普通文本，而不是传统的下划线链接。
+          text-decoration: none;
+        }
+
+        // 它应该在样式表的其他部分定义了一个特定的颜色值。当鼠标悬停时，li 元素的文本颜色会变成这个“次要”颜色。
+        &:hover {
+          color: $secondary;
+        }
+      }
+
+      .phone {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+
+        svg {
+          color: $secondary;
+          background-color: white;
+          padding: 10px;
+          border-radius: 999px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        }
+      }
+    }
+
+    .menuIcon {
+      // 在满足媒体查询条件（即屏幕宽度较小）时，.menuIcon 类的元素将显示为块级元素。这通常用于在小屏幕设备上显示导航菜单图标。
+      @media (max-width: $sm), (max-width: $md) {
+        display: block;
+      }
+
+      // 当不满足媒体查询条件（即屏幕宽度较大）时，这个规则会隐藏 .menuIcon 类的元素。
+      display: none;
+    }
+  }
+}

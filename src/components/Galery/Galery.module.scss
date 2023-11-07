@@ -1,0 +1,49 @@
+@import "../../styles/contants.scss";
+
+.wrapper {
+  background: white;
+  overflow: hidden;
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+    .heading {
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      > :nth-child(2) {
+        text-decoration: underline;
+        color: orange;
+        cursor: pointer;
+      }
+    }
+
+    .showCase {
+      width: 100%;
+      gap: 1.5rem;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      a {
+        text-decoration: none;
+        color: $primary;
+
+        img {
+          @media (max-width: $sm) {
+            width: 100%;
+          }
+          border-radius: 20px;
+          width: 20rem;
+          height: 18rem;
+          box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.05); /* 1.1 表示放大到原始大小的110% */
+            transition: transform 0.1s ease-in-out; /* 平滑过渡效果 */
+          }
+        }
+      }
+    }
+  }
+}
