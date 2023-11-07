@@ -1,6 +1,7 @@
 {
   "name": "personal-portfolio-2",
   "private": true,
+  "homepage": "https://jiquanzhong.github.io/"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -23,5 +24,9 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
+  }
+  "scripts": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   }
 }
