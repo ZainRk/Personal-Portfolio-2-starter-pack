@@ -14,7 +14,8 @@
     .leftSide {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 3rem;
+      align-items: center;
 
       .exp {
         display: flex;
@@ -22,7 +23,7 @@
         border: 1px solid $secondary-white;
         border-radius: 20px;
         padding: 1.5rem;
-        gap: 2rem;
+        gap: 3rem;
         transition: all 200ms ease-out;
 
         &:hover {

@@ -4,27 +4,29 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects:
+      "Lorem ipsum dolor sit amet, an usu nibh sensibus, cu mazim iusto accusamus cum. Quot vidisse euismod nam ea. Aperiri evertitur qui et. Ei pri dico pertinax definitionem, ei quo melius dignissim.",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
-    projects: 63,
+    projects:
+      "Inermis eligendi necessitatibus an duo, accusam probatus reprehendunt ei eum, pro ne fugit theophrastus. Wisi munere delenit per ea, te pro nulla oratio dissentiunt. ",
     icon: CiMobile1,
     bg: "#EEC048",
   },
-  {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
-  },
+  // {
+  //   name: "Brand Identity",
+  //   projects: 47,
+  //   icon: MdWorkspacesOutline,
+  //   bg: "#F26440",
+  // },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Inermis eligendi necessitatibus an duo, accusam probatus reprehendunt ei eum, pro ne fugit theophrastus. Wisi munere delenit per ea, te pro nulla oratio dissentiunt. In cum tacimates persecuti, dicant referrentur ea nam, his ornatus detracto dignissim et. Affert menandri explicari vel id. Ut duo velit augue.",
+  "Inermis eligendi necessitatibus an duo, accusam probatus reprehendunt ei eum, pro ne fugit theophrastus. Wisi munere delenit per ea, te pro nulla oratio dissentiunt.",
 ];
 
 export const workExp = [
